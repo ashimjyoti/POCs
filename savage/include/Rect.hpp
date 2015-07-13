@@ -91,6 +91,7 @@ public:
 			<< " height=\"" << getH() << "\""
 			<< " rx=\"" << getRX() << "\""
 			<< " ry=\"" << getRY() << "\""
+			<< " " << getStyle()
 			<< " />"
 			<< std::endl;
 	}

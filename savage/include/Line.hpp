@@ -67,7 +67,7 @@ public:
 			<< " y1=\"" << getY1() << "\""
 			<< " x2=\"" << getX2() << "\""
 			<< " y2=\"" << getY2() << "\""
-			<< " stroke-width=\"10\""
+			<< " " << getStyle()
 			<< " />"
 			<< std::endl;
 	}

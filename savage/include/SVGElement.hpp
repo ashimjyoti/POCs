@@ -2,6 +2,7 @@
 #define SAVAGE_SVGELEMENT_HPP
 
 #include <ostream>
+#include "Stylable.hpp"
 
 namespace Savage
 {
@@ -12,10 +13,11 @@ enum SVGElementType
 	SVGELEMENTTYPE_DESCRIPTIVE,
 	SVGELEMENTTYPE_SHAPE,
 	SVGELEMENTTYPE_STRUCTURAL,
-	SVGELEMENTTYPE_GRADIENT
+	SVGELEMENTTYPE_GRADIENT,
+	SVGELEMENTTYPE_TEXTCONTENT,
 };
 
-class SVGElement
+class SVGElement : public Stylable
 {
 	SVGElementType svgElementType;
 	

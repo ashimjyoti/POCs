@@ -31,9 +31,10 @@ public:
 		{
 			stream << std::get<0>(p) << "," << std::get<1>(p) << " ";
 		}
-		stream
-			<< "\" />"
-			<< std::endl;
+		stream << "\"";
+		stream << " " << getStyle();
+		stream << "/>" << std::endl;
+		return stream;
 	}
 };
 

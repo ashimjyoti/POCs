@@ -55,6 +55,7 @@ public:
 			<< " cx=\"" << getCX() << "\""
 			<< " cy=\"" << getCY() << "\""
 			<< " r=\"" << getR() << "\""
+			<< " " << getStyle()
 			<< " />"
 			<< std::endl;
 	}

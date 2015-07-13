@@ -149,7 +149,9 @@ public:
 		{
 			c->toString(stream);
 		}
-		stream << "\" />" << std::endl;
+		stream << "\"";
+		stream << " " << getStyle();
+		stream << "/>" << std::endl;
 		return stream;
 	}
 };
