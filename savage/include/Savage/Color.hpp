@@ -49,7 +49,7 @@ public:
 	
 	inline const uint8_t getB() const
 	{
-		return r;
+		return b;
 	}
 	
 	inline void setB(uint8_t _b)
